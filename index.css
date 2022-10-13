@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+#navbar{
+    display: flex;
+    border: 1px solid;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    gap: 20px;
+    justify-content: space-between;
+}
+#innspan{
+    display: flex;
+    border: 1px solid;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    gap: 20px;
+    width: 30%;
+    margin-right: 8%;
+    justify-content: space-evenly;
+}
+#innspan>a{
+    font-size: 17px;
+}
