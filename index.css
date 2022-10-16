@@ -4,14 +4,22 @@
     font-family: sans-serif;
 }
 #navbar{
+    width: 100%;
     display: flex;
     border: 1px solid;
     height: 80px;
     align-items: center;
     justify-content: center;
-    background-color: green;
+    background-color: whitesmoke;
     gap: 20px;
     justify-content: space-between;
+    /* position: fixed; */
+}
+#navbar>img{
+    margin-left: 3%;
+    width: 13%;
+    height: 90%;
+    border-radius: 5px;
 }
 #innspan{
     display: flex;
@@ -19,7 +27,7 @@
     height: 60px;
     align-items: center;
     justify-content: center;
-    background-color: red;
+    /* background-color: grey; */
     gap: 20px;
     width: 30%;
     margin-right: 8%;
@@ -27,4 +35,7 @@
 }
 #innspan>a{
     font-size: 17px;
+}
+#nameandintro{
+   border: 1px solid green;
 }
