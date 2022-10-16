@@ -1,41 +1,248 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     font-family: sans-serif;
+    background-color:
+        #dcecfc;
 }
-#navbar{
+
+#navbar {
     width: 100%;
     display: flex;
-    border: 1px solid;
-    height: 80px;
+
+    height: 12%;
     align-items: center;
-    justify-content: center;
-    background-color: whitesmoke;
-    gap: 20px;
+
+    background-color: #b6d8f9;
+
     justify-content: space-between;
-    /* position: fixed; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    position: fixed;
 }
-#navbar>img{
+
+#navbar>img {
     margin-left: 3%;
     width: 13%;
     height: 90%;
     border-radius: 5px;
+    display: block;
 }
-#innspan{
+
+#innspan {
     display: flex;
-    border: 1px solid;
-    height: 60px;
+    /* border: 1px solid red; */
+    height: 60%;
     align-items: center;
-    justify-content: center;
-    /* background-color: grey; */
-    gap: 20px;
-    width: 30%;
+    background-color: #b6d8f9;
+    /* gap: 10%; */
+    width: 35%;
     margin-right: 8%;
     justify-content: space-evenly;
 }
-#innspan>a{
-    font-size: 17px;
+
+#innspan>a {
+    font-size: 110%;
+    text-decoration: none;
+    color: gray;
+    background-color: #b6d8f9;
 }
-#nameandintro{
-   border: 1px solid green;
+
+/* -----------------home and me----------------- */
+
+#nameandintro {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+#nameandintro>div>img {
+    height: 280px;
+    border-radius: 50%;
+    margin: 5% 5% 5% 5%;
+
+}
+
+#nameandintro>#id1 {
+
+    width: 30%;
+    height: auto;
+    text-align: left;
+    margin-left: 5%;
+}
+
+#nameandintro>div>button {
+    width: 30%;
+    height: 35px;
+    font-size: 90%;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+.sec1 {
+    margin-top: 10%;
+}
+
+
+/* media for maximum */
+@media(max-width:1104px) {
+
+
+
+}
+
+/*-------------------------------------------- media for medium------------------------------------- */
+@media(max-width:1180px) {
+
+/*------------------navbar-------------------*/
+
+#navbar {
+    
+    height: 10%;
+}
+
+#navbar>img {
+    margin-left: 3%;
+    width: 20%;
+    height: 75%;
+    border-radius: 5px;
+    display: block;
+}
+
+#innspan {
+   
+    width: 47%;
+    
+}
+
+#innspan>a {
+    font-size: 110%;
+    text-decoration: none;
+    color: gray;
+    background-color: #b6d8f9;
+}
+
+/*-----------------navbar ends-------------------*/
+
+/*------------------home-------------------*/
+
+#nameandintro>div>img {
+    height: 280px;
+    border-radius: 50%;
+    margin: 5% 5% 5% 5%;
+
+}
+
+#nameandintro>#id1 {
+
+    width: 30%;
+    height: auto;
+    text-align: left;
+    margin-left: 15%;
+}
+
+#nameandintro>div>button {
+    width: 30%;
+    height: 35px;
+    font-size: 90%;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+.sec1 {
+    margin-top: 20%;
+}
+
+/* ------------------home ends-------------- */
+
+}
+
+/*-------------------------------- media for minimum------------------------------------- */
+@media(max-width:667px) {
+
+    /*------------------navbar-------------------*/
+    #navbar {
+        /* width: 100%; */
+        /* display: flex; */
+    
+        /* height: 12%; */
+        /* align-items: center; */
+    
+        /* background-color: #b6d8f9; */
+    
+        /* justify-content: space-between; */
+        /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+        /* position: fixed; */
+    }
+    
+    #navbar>img {
+        /* margin-left: 3%; */
+        width: 20%;
+        height: 75%;
+        border-radius: 5px;
+        display: block;
+    }
+    
+    #innspan {
+        display: flex;
+        /* border: 1px solid red; */
+        height: 60%;
+        align-items: center;
+        background-color: #b6d8f9;
+        /* gap: -9%; */
+        width: 60%;
+        margin-right: 15%;
+        justify-content: space-evenly;
+    }
+    
+    #innspan>a {
+        font-size: 70%;
+        text-decoration: none;
+        color: gray;
+        background-color: #b6d8f9;
+    }
+    
+    
+    /*-----------------navbar ends-------------------*/
+    
+    /*------------------home-------------------*/
+    
+    #nameandintro {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    #nameandintro>div>img {
+        height: 180px;
+        border-radius: 50%;
+        margin: 20% 5% 5% 5%;
+    
+    }
+    
+    #nameandintro>#id1 {
+        margin-top: 15%;
+        width: 100%;
+        height: auto;
+        text-align: left;
+        margin-left: 5%;
+    }
+    
+    #nameandintro>div>button {
+        width: 30%;
+        height: 35px;
+        font-size: 90%;
+        border-radius: 5px;
+        border: 2px solid grey;
+    }
+    
+    .sec1 {
+        margin-top: 20%;
+    }
+    
+    /* ------------------home ends-------------- */
+
 }
