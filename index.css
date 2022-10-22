@@ -3,26 +3,26 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
-    background-color:
-        #dcecfc;
+    background-color:#1b1b1b;
+    color: #8dd64e;
 }
 
 #navbar {
     width: 100%;
     display: flex;
-
     height: 12%;
     align-items: center;
-
-    background-color: #b6d8f9;
-
-    justify-content: space-between;
+    /* opacity: 0.5; */
+    /* background-color: #042738; */
+    justify-content: right;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     position: fixed;
+    border-bottom:2px solid #8dd64e;
 }
 
 #navbar>img {
     margin-left: 3%;
+    /* margin-right: 15%; */
     width: 13%;
     height: 90%;
     border-radius: 5px;
@@ -34,7 +34,7 @@
     /* border: 1px solid red; */
     height: 60%;
     align-items: center;
-    background-color: #b6d8f9;
+    /* background-color: #042738; */
     /* gap: 10%; */
     width: 35%;
     margin-right: 8%;
@@ -44,54 +44,87 @@
 #innspan>a {
     font-size: 110%;
     text-decoration: none;
-    color: gray;
-    background-color: #b6d8f9;
+    color: whitesmoke;
+    /* background-color: #042738; */
 }
 
-/* -----------------home and me----------------- */
+/* --------------------------------home and me----------------------------------- */
 
 #nameandintro {
     display: flex;
     align-items: center;
-
     justify-content: center;
-
+    color: #8dd64e;
 }
 
 #nameandintro>div>img {
     height: 280px;
     border-radius: 50%;
     margin: 5% 5% 5% 5%;
-
 }
 
 #nameandintro>#id1 {
-
     width: 30%;
     height: auto;
     text-align: left;
-    margin-left: 5%;
+    margin-left: 8%;
 }
 
-#nameandintro>div>button {
+#nameandintro>div>button{
     width: 30%;
     height: 35px;
-    font-size: 90%;
+    font-size: 95%;
     border-radius: 5px;
-    border: 2px solid grey;
+    border: 2px solid whitesmoke;
 }
-
+#nameandintro>div>button>a{
+    text-decoration: none;
+    color: whitesmoke;
+}
 .sec1 {
     margin-top: 10%;
 }
 
+/*------------------------------------------project page starts here----------------------------------------*/
 
-/* media for maximum */
-@media(max-width:1104px) {
-
-
-
+#p1{
+    border: 1px solid red;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+#p1>.project_image{
+    height: 350px;
+    width: 35%;
+}
+#p1>.project_title{
+    display: flex;
+    background-color: grey;
+    
+}
+#p1>.project_desc{
+    border: 1px solid orange;
+    width: 30%;
+}
+#p1>.tecstack{
+    
+}
+#p1>.button_git{
+    
+}
+#p1>.button_deploy{
+    
+}
+/*------------------------------------------project page ends here----------------------------------------*/
+
+
+
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 /*-------------------------------------------- media for medium------------------------------------- */
 @media(max-width:1180px) {
@@ -150,7 +183,10 @@
     border-radius: 5px;
     border: 2px solid grey;
 }
-
+#nameandintro>div>button>a{
+    text-decoration: none;
+    color: purple;
+}
 .sec1 {
     margin-top: 20%;
 }
@@ -159,24 +195,12 @@
 
 }
 
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
 /*-------------------------------- media for minimum------------------------------------- */
 @media(max-width:667px) {
 
     /*------------------navbar-------------------*/
-    #navbar {
-        /* width: 100%; */
-        /* display: flex; */
-    
-        /* height: 12%; */
-        /* align-items: center; */
-    
-        /* background-color: #b6d8f9; */
-    
-        /* justify-content: space-between; */
-        /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
-        /* position: fixed; */
-    }
-    
     #navbar>img {
         /* margin-left: 3%; */
         width: 20%;
@@ -203,8 +227,6 @@
         color: gray;
         background-color: #b6d8f9;
     }
-    
-    
     /*-----------------navbar ends-------------------*/
     
     /*------------------home-------------------*/
@@ -238,7 +260,10 @@
         border-radius: 5px;
         border: 2px solid grey;
     }
-    
+    #nameandintro>div>button>a{
+        text-decoration: none;
+        color: purple;
+    }
     .sec1 {
         margin-top: 20%;
     }
@@ -246,3 +271,5 @@
     /* ------------------home ends-------------- */
 
 }
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++   THE END   +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
