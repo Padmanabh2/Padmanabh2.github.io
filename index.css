@@ -45,7 +45,7 @@
     font-size: 110%;
     text-decoration: none;
     color: whitesmoke;
-    /* background-color: #042738; */
+    background-color: #1b1b1b;
 }
 
 /* --------------------------------home and me----------------------------------- */
@@ -88,34 +88,44 @@
 /*------------------------------------------project page starts here----------------------------------------*/
 
 #p1{
-    border: 1px solid red;
-    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;
+    border: 1px solid yellow;
+}
+#p1>.p1img{
+    height: 300px;
+    width: 50%;
+}
+#p1>.p1img>img{
+    height: 300px;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-#p1>.project_image{
-    height: 350px;
-    width: 35%;
+#p1>.p1all{
+border: 3px solid white;
 }
-#p1>.project_title{
-    display: flex;
-    background-color: grey;
-    
+#p1>.p1all>.project_desc{
+    width: 70%;
+    margin: 2% 0px 2% 0px;
 }
-#p1>.project_desc{
-    border: 1px solid orange;
-    width: 30%;
+#p1>.p1all>.techstack{
+    width: 70%;
+    height: 50px;
+    border: 5px solid grey;
+    margin-bottom: 2%;
 }
-#p1>.tecstack{
-    
+#p1>.p1all>.button_git{
+    height: 30px;
+    width: 50px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-right: 5%;
 }
-#p1>.button_git{
-    
-}
-#p1>.button_deploy{
-    
+#p1>.p1all>.button_deploy{
+    height: 50px;
+    width: 100px;
+    border: 2px solid grey;
+    border-radius: 5px;
 }
 /*------------------------------------------project page ends here----------------------------------------*/
 
@@ -126,13 +136,21 @@
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
+
 /*-------------------------------------------- media for medium------------------------------------- */
 @media(max-width:1180px) {
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 /*------------------navbar-------------------*/
 
 #navbar {
-    
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
     height: 10%;
 }
 
@@ -145,16 +163,17 @@
 }
 
 #innspan {
-   
+   /* border: 1px solid red; */
     width: 47%;
-    
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #innspan>a {
     font-size: 110%;
     text-decoration: none;
     color: gray;
-    background-color: #b6d8f9;
+    /* background-color: #1b1b1b; */
 }
 
 /*-----------------navbar ends-------------------*/
@@ -176,6 +195,9 @@
     margin-left: 15%;
 }
 
+#nameandintro>#id1>p{
+    width: 90%;
+}
 #nameandintro>div>button {
     width: 30%;
     height: 35px;
@@ -190,7 +212,9 @@
 .sec1 {
     margin-top: 20%;
 }
-
+#id1{
+    padding-top: -12%;
+}
 /* ------------------home ends-------------- */
 
 }
@@ -206,7 +230,9 @@
         width: 20%;
         height: 75%;
         border-radius: 5px;
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     #innspan {
@@ -214,7 +240,7 @@
         /* border: 1px solid red; */
         height: 60%;
         align-items: center;
-        background-color: #b6d8f9;
+        /* background-color: #b6d8f9; */
         /* gap: -9%; */
         width: 60%;
         margin-right: 15%;
@@ -225,7 +251,7 @@
         font-size: 70%;
         text-decoration: none;
         color: gray;
-        background-color: #b6d8f9;
+        /* background-color: #b6d8f9; */
     }
     /*-----------------navbar ends-------------------*/
     
