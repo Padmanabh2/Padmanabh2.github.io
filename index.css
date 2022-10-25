@@ -12,7 +12,7 @@
     display: flex;
     height: 12%;
     align-items: center;
-    /* opacity: 0.5; */
+    top: 0%;
     /* background-color: #042738; */
     justify-content: right;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -90,42 +90,58 @@
 #p1{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     gap: 5%;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
+    margin: 5% 10% 0px 10%;
 }
+
 #p1>.p1img{
     height: 300px;
     width: 50%;
+    /* border: 1px solid yellow; */
 }
 #p1>.p1img>img{
-    height: 300px;
+    height: 100%;
     width: 100%;
+    border-radius: 8px;
 }
 #p1>.p1all{
-border: 3px solid white;
+    width: 50%;
+    /* border: 3px solid grey; */
 }
 #p1>.p1all>.project_desc{
     width: 70%;
     margin: 2% 0px 2% 0px;
 }
 #p1>.p1all>.techstack{
-    width: 70%;
-    height: 50px;
-    border: 5px solid grey;
+    width: 80%;
+    height: 100px;
+    /* border: 5px solid grey; */
     margin-bottom: 2%;
+    display: flex;
+    justify-content: left;
+    gap: 5%;
+    align-items: center;
 }
 #p1>.p1all>.button_git{
-    height: 30px;
-    width: 50px;
-    border: 2px solid grey;
+    height: 50px;
+    width: 100px;
+    /* border: 2px solid grey; */
     border-radius: 5px;
     margin-right: 5%;
+    border: 3px solid grey;
 }
 #p1>.p1all>.button_deploy{
     height: 50px;
     width: 100px;
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
     border-radius: 5px;
+    border: 3px solid grey;
+}
+#p1>.p1all>.techstack>img{
+    height: 60%;
+    width: 10%;
 }
 /*------------------------------------------project page ends here----------------------------------------*/
 
