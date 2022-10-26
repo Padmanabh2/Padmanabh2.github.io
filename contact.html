@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <div id="navbar"> -->
+        <!-- <img src="./images/Beige Minimalist Modern Typography Logo (1).png" alt="" class="home"> -->
+        
+        <!-- <div id="innspan">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skill.html">Skill</a>
+            <a href="project.html" id="proj">Project & Github</a>
+            <a href="contact.html">Contact</a>
+            <a href="resume.html">Resume</a>
+        </div> -->
+    <!-- </div> -->
+
+    
+
+        <div style="margin-top: 2%;" id="email_div">
+
+            <form id="formm" action="#" onclick="return false;">
+                <div>
+                    <input required id="sender_name" type="text" placeholder="name">
+                    <input required id="sender_email" type="email" placeholder="email">
+                </div>
+                <input required id="subject" type="text" placeholder="subject">
+                <textarea required name="" id="msg" cols="30" rows="13" placeholder="message"></textarea>
+                <button id="email_btn"> send message </button>
+            </form>
+
+        </div>
+  
+
+    
+
+</body>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function () {
+        emailjs.init("lfUa6Byzer2WdDSkQ");
+    })();
+</script>
+
+
+</html>
+
+<script src="./contact.js"></script>

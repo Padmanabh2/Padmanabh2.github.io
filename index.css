@@ -91,9 +91,11 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 5%;
+    gap: 7%;
     /* border: 1px solid yellow; */
-    margin: 5% 10% 0px 10%;
+    margin: 5% 12% 0px 12%;
+    border-bottom: 3px solid grey;
+    padding-bottom: 3%;
 }
 
 #p1>.p1img{
@@ -145,7 +147,13 @@
 }
 /*------------------------------------------project page ends here----------------------------------------*/
 
+/*-------------------------------------------git stats start-------------------------------------------*/
 
+#gitsection{
+    margin: auto;
+}
+
+/*-------------------------------------------git stats end-------------------------------------------*/
 
 
 
