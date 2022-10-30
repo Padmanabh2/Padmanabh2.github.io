@@ -5,6 +5,7 @@
     font-family: sans-serif;
     background-color:#1b1b1b;
     color: #8dd64e;
+    /* text-align: center; */
 }
 
 #navbar {
@@ -84,9 +85,19 @@
 .sec1 {
     margin-top: 10%;
 }
+/*------------ text animation ------------ */
+
+/*------------ text animation ends ------------ */
+/* --------------------------------home and me ends----------------------------------- */
 
 /*------------------------------------------project page starts here----------------------------------------*/
-
+#ph1{
+    color: whitesmoke;
+    /* border-bottom: 2px solid grey; */
+    display: flex;
+    justify-content: center;
+    /* padding-bottom: 1.5%; */
+}
 #p1{
     display: flex;
     justify-content: space-evenly;
@@ -127,7 +138,7 @@
     align-items: center;
 }
 #p1>.p1all>.button_git{
-    height: 50px;
+    height: 40px;
     width: 100px;
     /* border: 2px solid grey; */
     border-radius: 5px;
@@ -135,22 +146,34 @@
     border: 3px solid grey;
 }
 #p1>.p1all>.button_deploy{
-    height: 50px;
+    height: 40px;
     width: 100px;
     /* border: 2px solid grey; */
     border-radius: 5px;
     border: 3px solid grey;
 }
 #p1>.p1all>.techstack>img{
-    height: 60%;
+    height: 50%;
     width: 10%;
 }
+
 /*------------------------------------------project page ends here----------------------------------------*/
 
 /*-------------------------------------------git stats start-------------------------------------------*/
 
 #gitsection{
     margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding-bottom: 1.5%;
+    width: 70%;
+    margin-bottom: 5%;
+}
+#gitsection>h2{
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 /*-------------------------------------------git stats end-------------------------------------------*/
