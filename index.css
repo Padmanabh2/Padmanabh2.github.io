@@ -161,19 +161,20 @@
 
 /*-------------------------------------------git stats start-------------------------------------------*/
 
-#gitsection{
-    margin: auto;
-    margin-top: 5%;
-    text-align: center;
-    border: 2px solid grey;
-    border-radius: 10px;
-    padding-bottom: 1.5%;
-    width: 70%;
+.calendar{
+    width: 76%;
     margin-bottom: 5%;
 }
-#gitsection>h2{
-    margin-bottom: 2%;
-    margin-top: 2%;
+.github-stats{
+    margin: 5% 0px 5% 0px;
+    text-align: center;
+    font-size: 250%;
+}
+.github-stats>span{
+    font-size: 100%;
+}
+#optional{
+    margin-top: 5%;
 }
 
 /*-------------------------------------------git stats end-------------------------------------------*/
