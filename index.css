@@ -28,14 +28,7 @@
     margin-right: 40%;
     color: teal;
 }
-#navbar>img {
-    margin-left: 3%;
-    /* margin-right: 15%; */
-    width: 13%;
-    height: 90%;
-    border-radius: 5px;
-    display: block;
-}
+
 
 #innspan {
     display: flex;
@@ -268,8 +261,6 @@
     border-top: 2px solid;
 }
 #contact>div>img{
-   
-   
     width: 100%;
     height: 100%;
 
@@ -286,169 +277,407 @@
 
 /* ----------------------------------------------contact section ends--------------------------------------- */
 
-
-/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 /*-------------------------------------------- media for medium------------------------------------- */
 @media(max-width:1180px) {
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
-/*------------------navbar-------------------*/
-
-#navbar {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    height: 10%;
-}
-
-#navbar>img {
-    margin-left: 3%;
-    width: 20%;
-    height: 75%;
-    border-radius: 5px;
-    display: block;
-}
-
-#innspan {
-   /* border: 1px solid red; */
-    width: 47%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#innspan>a {
-    font-size: 110%;
-    text-decoration: none;
-    color: gray;
-    /* background-color: #1b1b1b; */
-}
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    #navbar {
+        width: 100%;
+        display: flex;
+        height: 10%;
+        align-items: center;
+        top: 0%;
+        justify-content: right;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        position: fixed;
+        z-index: 2;
+        border-bottom:2px solid #8dd64e;
+        background-color:#1b1b1b;
+    }
+    #navbar>h2{
+       /* border: 1px solid white; */
+        color: teal;
+        width: 23%;
+        margin-right: 13%;
+    }
+ 
+    #innspan {
+        display: flex;
+        /* border: 1px solid red; */
+        height: 70%;
+        align-items: center;
+        /* background-color: #042738; */
+        /* gap: 10%; */
+        width: 55%;
+        margin-right: 5%;
+        justify-content: space-evenly;
+    }
+    
+    #innspan>a {
+        font-size: 110%;
+        text-decoration: none;
+        color: whitesmoke;
+        background-color: #1b1b1b;
+    }
 
 /*-----------------navbar ends-------------------*/
 
 /*------------------home-------------------*/
 
+#nameandintro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8dd64e;
+    margin-top: 12%;
+    background-size: 100%;
+}
+
 #nameandintro>div>img {
-    height: 280px;
+    height: 200px;
     border-radius: 50%;
     margin: 5% 5% 5% 5%;
-
 }
 
 #nameandintro>#id1 {
-
-    width: 30%;
+    width: 55%;
     height: auto;
     text-align: left;
-    margin-left: 15%;
-}
-
-#nameandintro>#id1>p{
-    width: 90%;
-}
-#nameandintro>div>button {
-    width: 30%;
-    height: 35px;
-    font-size: 90%;
-    border-radius: 5px;
-    border: 2px solid grey;
-}
-#nameandintro>div>button>a{
-    text-decoration: none;
-    color: purple;
-}
-.sec1 {
-    margin-top: 20%;
-}
-#id1{
-    padding-top: -12%;
+    margin-left: 8%;
+    /* background: transparent; */
 }
 /* ------------------home ends-------------- */
 
+/*------------------------------------------project page starts here----------------------------------------*/
+#ph1{
+    margin-top: 5%;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+#p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7%;
+    margin: 5% 12% 0px 12%;
+    border-bottom: 3px solid teal;
+    padding-bottom: 3%;
 }
 
-/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+#p1>.p1img{
+    height: 250px;
+    width: 100%;
+}
 
-/*-------------------------------- media for minimum------------------------------------- */
+#p1>.p1all{
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+/*------------------------------------------project page ends here----------------------------------------*/
+
+/*-------------------------------------------git stats start-------------------------------------------*/
+
+.calendar{
+    width: 80%;
+    height: auto;
+}
+.github-stats{
+    margin: 5% 0px 5% 0px;
+    text-align: center;
+    font-size: 250%;
+    border-top: 2px solid whitesmoke;
+    padding-top: 25px;
+}
+.github-stats>span{
+    font-size: 100%;
+}
+#optional{
+    margin-top: 6%;
+}
+
+/*-------------------------------------------git stats end-------------------------------------------*/
+/*------------------------------------------skill starts here----------------------------------------*/
+#skillsmain>div{
+    /* border: 3px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: repeat(3,1fr); */
+    gap: 15%;
+    height: 90%;
+    width: 70%;
+    margin: 4% 0px 5% 0px;
+}
+#skillsmain>div>img{
+    /* border: 1px solid whitesmoke; */
+    height: 70%;
+    width: 30%;
+    margin: auto;
+}
+#contact{
+    border-bottom: 2px solid teal;
+}
+/*------------------------------------------skill ends here----------------------------------------*/
+}
+
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+/*-------------------------------- media for small------------------------------------- */
 @media(max-width:667px) {
 
-    /*------------------navbar-------------------*/
-    #navbar>img {
-        /* margin-left: 3%; */
-        width: 20%;
-        height: 75%;
-        border-radius: 5px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    *{
+        margin: 0px;
+        padding: 0px;
     }
-    
-    #innspan {
+    #navbar {
+        width: 100%;
         display: flex;
-        /* border: 1px solid red; */
-        height: 60%;
+        height: 8%;
         align-items: center;
-        /* background-color: #b6d8f9; */
-        /* gap: -9%; */
-        width: 60%;
-        margin-right: 15%;
+        top: 0%;
+        justify-content: right;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        position: fixed;
+        z-index: 2;
+        border-bottom:2px solid #8dd64e;
+        background-color:#1b1b1b;
+    }
+    #navbar>h2{
+        color: teal;
+        width: 35%;
+        font-size: 80%;
+        margin-left: 5%;
+        margin-right: 0px;
+    }
+ 
+    #innspan{
+        display: flex;
+        height: 50%;
+        align-items: center;
+        width: 80%;
+        margin-right: 5%;
         justify-content: space-evenly;
+        grid-area: 3%;
     }
     
     #innspan>a {
-        font-size: 70%;
+        font-size: 10px;
         text-decoration: none;
-        color: gray;
-        /* background-color: #b6d8f9; */
+        color: whitesmoke;
     }
-    /*-----------------navbar ends-------------------*/
-    
-    /*------------------home-------------------*/
-    
-    #nameandintro {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-    
-    }
-    #nameandintro>div>img {
-        height: 180px;
-        border-radius: 50%;
-        margin: 20% 5% 5% 5%;
-    
-    }
-    
-    #nameandintro>#id1 {
-        margin-top: 15%;
-        width: 100%;
-        height: auto;
-        text-align: left;
-        margin-left: 5%;
-    }
-    
-    #nameandintro>div>button {
-        width: 30%;
-        height: 35px;
-        font-size: 90%;
-        border-radius: 5px;
-        border: 2px solid grey;
-    }
-    #nameandintro>div>button>a{
-        text-decoration: none;
-        color: purple;
-    }
-    .sec1 {
-        margin-top: 20%;
-    }
-    
-    /* ------------------home ends-------------- */
 
+/*-----------------navbar ends-------------------*/
+
+/*------------------home-------------------*/
+
+#nameandintro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #8dd64e;
+    margin-top: 12%;
+    background-size: 100%;
+}
+
+#nameandintro>div>img {
+    height: 140px;
+    border-radius: 50%;
+    margin: 5% 5% 5% 5%;
+}
+.typewriter>h1{
+    font-size: 130%;
+}
+#nameandintro>#id1 {
+    width: 80%;
+    height: auto;
+    text-align: left;
+    margin-left: 8%;
+    /* background: transparent; */
+}
+/* ------------------home ends-------------- */
+
+/*------------------------------------------project page starts here----------------------------------------*/
+#maindiv{
+    border-top: 2px solid whitesmoke;
+}
+#ph1{
+    margin-top: 5%;
+    color: whitesmoke;
+    /* border-bottom: 2px solid grey; */
+    display: flex;
+    justify-content: center;
+    font-size: 130%;
+    /* padding-bottom: 1.5%; */
+}
+#p1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 7%;
+    /* border: 1px solid yellow; */
+    margin: 5% 12% 0px 12%;
+    border-bottom: 3px solid teal;
+    padding-bottom: 3%;
+}
+
+#p1>.p1img{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid yellow; */
+}
+#p1>.p1img>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+#p1>.p1all{
+    width: 100%;
+    /* border: 3px solid grey; */
+}
+#p1>.p1all>.project_desc{
+    width: 100%;
+    margin: 2% 0px 2% 0px;
+}
+#p1>.p1all>.techstack{
+    width: 80%;
+    height: 100px;
+    /* border: 5px solid grey; */
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: left;
+    gap: 5%;
+    align-items: center;
+}
+#p1>.p1all>.button_git{
+    height: 40px;
+    width: 100px;
+    /* border: 2px solid grey; */
+    border-radius: 5px;
+    margin-right: 5%;
+    border: 3px solid grey;
+}
+#p1>.p1all>.button_deploy{
+    height: 40px;
+    width: 100px;
+    /* border: 2px solid grey; */
+    border-radius: 5px;
+    border: 3px solid grey;
+}
+#p1>.p1all>.techstack>img{
+    height: 40%;
+    width: 20%;
+}
+.p1all>.project_title{
+    font-size: 130%;
+}
+/*------------------------------------------project page ends here----------------------------------------*/
+
+/*-------------------------------------------git stats start-------------------------------------------*/
+
+.calendar{
+    width: 80%;
+    height: auto;
+}
+.github-stats{
+    margin: 5% 0px 5% 0px;
+    text-align: center;
+    font-size: 250%;
+    border-top: 2px solid whitesmoke;
+    padding-top: 25px;
+}
+.github-stats>span{
+    font-size: 100%;
+    color: whitesmoke;
+}
+.github-stats{
+    font-size: 150%;
+    color: whitesmoke;
+}
+#optional{
+    margin-top: 6%;
+}
+
+/*-------------------------------------------git stats end-------------------------------------------*/
+
+/*------------------------------------------skill starts here----------------------------------------*/
+#skillsmain>div{
+    /* border: 3px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: repeat(3,1fr); */
+    gap: 15%;
+    height: 90%;
+    width: 70%;
+    margin: 4% 0px 5% 0px;
+}
+#skillsmain>div>img{
+    /* border: 1px solid whitesmoke; */
+    height: 70%;
+    width: 60%;
+    margin: auto;
+}
+#contact{
+    border-bottom: 2px solid teal;
+}
+#skillsmain>h1{
+    font-size: 125%;
+    color: whitesmoke;
+    margin-top: 6%;
+}
+#skillsmain{
+    padding-bottom: 5%;
+}
+
+/*------------------------------------------skill ends here----------------------------------------*/
+/* ----------------------------------------------contact section start--------------------------------------- */
+
+#contact{
+    /* border: 2px solid red; */
+    margin-top: 5%;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 2px solid;
+}
+#contact>div>img{
+    width: 100%;
+    height: 100%;
+
+}
+#contact>h2{
+    font-size: 125%;
+    margin-bottom: 5%;
+    color: whitesmoke;
+}
+#contact>div{
+    margin-top: 3%;
+    /* border: 2px solid orange; */
+    width: 50%;
+    height: 20%;
+   display: flex;
+   justify-content: space-evenly;
+   gap: 15%;
+}
+
+/* ----------------------------------------------contact section ends--------------------------------------- */
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++   THE END   +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
