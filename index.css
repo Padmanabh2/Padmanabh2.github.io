@@ -15,6 +15,7 @@
     height: 12%;
     align-items: center;
     top: 0%;
+   
     /* background-color: #042738; */
     justify-content: right;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -23,7 +24,10 @@
     border-bottom:2px solid #8dd64e;
     background-color:#1b1b1b;
 }
-
+#navbar>h2{
+    margin-right: 40%;
+    color: teal;
+}
 #navbar>img {
     margin-left: 3%;
     /* margin-right: 15%; */
@@ -88,6 +92,7 @@
 #nameandintro>div>button>a{
     text-decoration: none;
     color: whitesmoke;
+    box-sizing: border-box;
     /* background: transparent; */
 }
 .sec1 {
@@ -123,7 +128,12 @@
 /* --------------------------------home and me ends----------------------------------- */
 
 /*------------------------------------------project page starts here----------------------------------------*/
+
+#maindiv{
+    border-top: 2px solid whitesmoke;
+}
 #ph1{
+    margin-top: 5%;
     color: whitesmoke;
     /* border-bottom: 2px solid grey; */
     display: flex;
@@ -191,6 +201,39 @@
 
 /*------------------------------------------project page ends here----------------------------------------*/
 
+/*------------------------------------------skill starts here----------------------------------------*/
+
+#skillsmain{
+    /* border: 2px solid teal; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid teal;
+}
+#skillsmain>h1{
+    margin: 3% 0px 3% 0px;
+}
+#skillsmain>div{
+    /* border: 3px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: repeat(3,1fr); */
+    gap: 5%;
+    height: 90%;
+    width: 70%;
+    
+}
+#skillsmain>div>img{
+    /* border: 1px solid whitesmoke; */
+    height: 65%;
+    width: 30%;
+    margin: auto;
+}
+
+/*------------------------------------------skill ends here----------------------------------------*/
+
 /*-------------------------------------------git stats start-------------------------------------------*/
 
 .calendar{
@@ -211,7 +254,37 @@
 
 /*-------------------------------------------git stats end-------------------------------------------*/
 
+/* ----------------------------------------------contact section start--------------------------------------- */
 
+#contact{
+    /* border: 2px solid red; */
+    margin-top: 5%;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 2px solid;
+}
+#contact>div>img{
+   
+   
+    width: 100%;
+    height: 100%;
+
+}
+#contact>div{
+    margin-top: 3%;
+    /* border: 2px solid orange; */
+    width: 23%;
+    height: 25%;
+   display: flex;
+   justify-content: space-evenly;
+   gap: 15%;
+}
+
+/* ----------------------------------------------contact section ends--------------------------------------- */
 
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
