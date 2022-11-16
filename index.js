@@ -32,5 +32,30 @@ document.querySelector('#espndeploy').addEventListener('click',()=>{
 
 })
 
+document.querySelector('#crimegit').addEventListener('click',()=>{
+
+    window.open('https://github.com/Padmanabh2/Crime_Info_Management_System','_blank');
+
+})
+document.querySelector('#crimepresent').addEventListener('click',()=>{
+
+    window.open('https://drive.google.com/file/d/11yT3agPNkTVQ5coMjiuvZrImlZdDLQfS/view','_blank');
+
+})
+
+//---------------------contact click event starts-------------------------
+
+document.querySelector('#linkedincontact').addEventListener('click',()=>{
+
+    window.open('https://www.linkedin.com/in/padmanabhdesai?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BqRR%2FyVrNQ%2BazbRDtY77Y6g%3D%3D','_blank');
+
+})
+
+document.querySelector('#gitcontact').addEventListener('click',()=>{
+
+    window.open('https://github.com/Padmanabh2','_blank');
+
+})
+
 
 
