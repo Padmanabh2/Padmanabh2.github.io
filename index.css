@@ -63,12 +63,15 @@ html {
 }
 
 #nameandintro>div>img {
-    height: 280px;
-    width: 300px;
-    border-radius: 50%;
-    margin: 5% 5% 5% 5%;
+    height: 300px;
+    width: 320px;
+    /* border-radius: 10%; */
+    /* margin: 5% 5% 5% 5%; */
 }
-
+#myprofile{
+border-radius: 50%;
+border: 6px solid teal;
+}
 #nameandintro>#id1 {
     width: 30%;
     height: auto;
@@ -314,42 +317,46 @@ margin-bottom: 3%;
 
 /* -------------------------------------------------statistics starts------------------------------------------- */
 
-#statistics{
-    width: 80%;
-    height: auto;
+#statmain{
     /* border: 1px solid red; */
-    margin: 3% 0px 3% 0px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: auto;
-    margin-top: 3%;
-}
-#num{
-    height: 130px;
-    width: 130px;
-    border: 3px solid teal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    border-radius: 50%;
-    margin-bottom: 25%;
-}
-.aaa{
-    /* border: 1px solid green; */
+    border-top: 2px solid whitesmoke;
+    width: 100%;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: auto;
 }
-#indiv{
-    text-align: center;
-    font-size: 15px;
-    width: 75%;
+
+#updiv{
+    width: 1200px;
+    height: 150px;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
 }
-#indiv>h2{
-    color: whitesmoke;
+#updiv>h3{
+font-size: 30px;
+padding: 37px 37px 37px 37px;
+border: 3px solid teal;
+border-radius: 50%;
+color: whitesmoke;
+}
+#lodiv{
+    width: 1200px;
+    height: 150px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+}
+#lodiv>p{
+font-size: 25px;
+width: 100px;
 }
 
 /* -------------------------------------------------statistics ends here------------------------------------------- */
@@ -420,7 +427,7 @@ margin-bottom: 3%;
 
 #nameandintro>div>img {
     height: 180px;
-    width: 200px;
+    width: 185px;
     border-radius: 50%;
     margin: 5% 5% 5% 5%;
 }
