@@ -60,6 +60,7 @@ html {
     color: #8dd64e;
     background-size: 100%;
     margin-bottom: -3%;
+    
 }
 
 #nameandintro>div>img {
@@ -98,6 +99,9 @@ border: 6px solid teal;
     margin-top: 10%;
     /* background: transparent; */
 }
+#maindiv{
+    border-top: 2px solid whitesmoke;
+}
 /*------------ text animation ------------ */
 
 .typewriter h1 {
@@ -128,9 +132,7 @@ border: 6px solid teal;
 
 /*------------------------------------------project page starts here----------------------------------------*/
 
-#maindiv{
-    border-top: 2px solid whitesmoke;
-}
+
 #ph1{
     margin-top: 5%;
     color: whitesmoke;
@@ -317,47 +319,7 @@ margin-bottom: 3%;
 
 /* -------------------------------------------------statistics starts------------------------------------------- */
 
-#statmain{
-    /* border: 1px solid red; */
-    border-top: 2px solid whitesmoke;
-    width: 100%;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
-}
 
-#updiv{
-    width: 1200px;
-    height: 150px;
-    /* border: 1px solid yellow; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 5%;
-}
-#updiv>h3{
-font-size: 30px;
-padding: 37px 37px 37px 37px;
-border: 3px solid teal;
-border-radius: 50%;
-color: whitesmoke;
-}
-#lodiv{
-    width: 1200px;
-    height: 150px;
-    /* border: 1px solid white; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: justify;
-}
-#lodiv>p{
-font-size: 25px;
-width: 100px;
-}
 
 /* -------------------------------------------------statistics ends here------------------------------------------- */
 
@@ -369,38 +331,29 @@ width: 100px;
 /*-------------------------------------------- media for medium------------------------------------- */
 @media(max-width:1180px) {
 
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
     #navbar {
         width: 100%;
         display: flex;
-        height: 10%;
+        height: 100px;
         align-items: center;
         top: 0%;
         justify-content: right;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
         position: fixed;
         z-index: 2;
         border-bottom:2px solid #8dd64e;
         background-color:#1b1b1b;
     }
     #navbar>h2{
-       /* border: 1px solid white; */
         color: teal;
-        width: 23%;
+        width: 15%;
         margin-right: 13%;
     }
  
     #innspan {
         display: flex;
-        /* border: 1px solid red; */
         height: 70%;
         align-items: center;
-        /* background-color: #042738; */
-        /* gap: 10%; */
-        width: 55%;
+        width: 60%;
         margin-right: 5%;
         justify-content: space-evenly;
     }
@@ -437,7 +390,6 @@ width: 100px;
     height: auto;
     text-align: left;
     margin-left: 8%;
-    /* background: transparent; */
 }
 /* ------------------home ends-------------- */
 
@@ -520,12 +472,11 @@ width: 100px;
 
     border-top: 4px solid whitesmoke;
     border-right: 4px solid teal;
-
-    height: 85%;
-    width: 25%;
+    height: 60px;
+    width: 70px;
     margin: auto;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin-top: 4%;
+    margin-bottom: 2%;
     padding: 3% 3% 0px 0px;
     border-radius: 7px;
 }
@@ -535,7 +486,6 @@ width: 100px;
     border-bottom: 2px solid teal;
 }
 #contact>#contactfirst{
-    margin-top: 3%;
     width: 33%;
     height: 23%;
    display: flex;
@@ -572,47 +522,11 @@ margin-bottom: 3%;
     margin-bottom: 2%;
 }
 /*------------------------------------------skill ends here----------------------------------------*/
-}
+
 /* -------------------------------------------------statistics starts------------------------------------------- */
 
-#statistics{
-    width: 75%;
-    height: auto;
-    /* border: 1px solid red; */
-    margin: 3% 0px 3% 0px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: auto;
-    margin-top: 3%;
-}
-#num{
-    height: 130px;
-    width: 130px;
-    border: 3px solid teal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    border-radius: 50%;
-    margin-bottom: 25%;
-}
-.aaa{
-    /* border: 1px solid green; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-#indiv{
-    text-align: center;
-    font-size: 15px;
-    width: 75%;
-}
-#indiv>h2{
-    color: whitesmoke;
-}
 
+}
 /* -------------------------------------------------statistics ends here------------------------------------------- */
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
@@ -630,7 +544,7 @@ margin-bottom: 3%;
     #navbar {
         width: 100%;
         display: flex;
-        height: 8%;
+        height: 68px;
         align-items: center;
         top: 0%;
         justify-content: right;
@@ -639,6 +553,7 @@ margin-bottom: 3%;
         z-index: 2;
         border-bottom:2px solid #8dd64e;
         background-color:#1b1b1b;
+       
     }
     #navbar>h2{
         color: teal;
@@ -696,6 +611,10 @@ margin-bottom: 3%;
     margin-left: 8%;
     margin-top: 2%;
     /* background: transparent; */
+}
+#id1>#downloadresume{
+    height: 40px;
+    width: 100px;
 }
 /* ------------------home ends-------------- */
 
@@ -890,47 +809,7 @@ margin-bottom: 3%;
 
 /* -------------------------------------------------statistics starts------------------------------------------- */
 
-#statistics{
-    width: 75%;
-    height: auto;
-    /* border: 1px solid red; */
-    margin: 3% 0px 3% 0px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: auto;
-    margin-top: 3%;
-}
-#num{
-    height: 50px;
-    width: 50px;
-    border: 3px solid teal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 13px;
-    border-radius: 50%;
-    margin-bottom: 25%;
-}
-.aaa{
-    /* border: 1px solid green; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-#indiv{
-    text-align: center;
-    font-size: 15px;
-    width: 75%;
-}
-#indiv>h2{
-    color: whitesmoke;
-    font-size: 10px;
-}
-#h1stat{
-    font-size: 20px;
-}
+
 /* -------------------------------------------------statistics ends here------------------------------------------- */
 
 }
